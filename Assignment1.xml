@@ -1,0 +1,342 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Metrics scope="Ass1Redo" type="Project" date="2019-03-23" xmlns="http://metrics.sourceforge.net/2003/Metrics-First-Flat">
+   <Metric id = "VG" description ="McCabe Cyclomatic Complexity" max ="10" hint ="use Extract-method to split the method up">
+      <Values per = "method" avg = "2" stddev = "2.087" max = "8">
+         <Value name="d" source ="EFactor.java" package ="(default package)" value ="8"/>
+         <Value name="c" source ="TFactor.java" package ="(default package)" value ="8"/>
+         <Value name="Calc" source ="Formula5.java" package ="(default package)" value ="6"/>
+         <Value name="a" source ="Actors.java" package ="(default package)" value ="4"/>
+         <Value name="g" source ="Estimating.java" package ="(default package)" value ="4"/>
+         <Value name="b" source ="UseCase.java" package ="(default package)" value ="4"/>
+         <Value name="Calc" source ="Formula1.java" package ="(default package)" value ="1"/>
+         <Value name="getTotalActorPoint" source ="Formula1.java" package ="(default package)" value ="1"/>
+         <Value name="Calc" source ="Formula2.java" package ="(default package)" value ="1"/>
+         <Value name="getTotalUseCase" source ="Formula2.java" package ="(default package)" value ="1"/>
+         <Value name="Calc" source ="Formula3.java" package ="(default package)" value ="1"/>
+         <Value name="getTCF" source ="Formula3.java" package ="(default package)" value ="1"/>
+         <Value name="getTotalTF" source ="Formula3.java" package ="(default package)" value ="1"/>
+         <Value name="getszuc" source ="Formula3.java" package ="(default package)" value ="1"/>
+         <Value name="Calc" source ="Formula4.java" package ="(default package)" value ="1"/>
+         <Value name="getEF" source ="Formula4.java" package ="(default package)" value ="1"/>
+         <Value name="getTotalEF" source ="Formula4.java" package ="(default package)" value ="1"/>
+         <Value name="getUCP" source ="Formula4.java" package ="(default package)" value ="1"/>
+         <Value name="Calculate" source ="Formula5.java" package ="(default package)" value ="1"/>
+         <Value name="Formula5" source ="Formula5.java" package ="(default package)" value ="1"/>
+         <Value name="getAdjustMH" source ="Formula5.java" package ="(default package)" value ="1"/>
+         <Value name="getTotalMH" source ="Formula5.java" package ="(default package)" value ="1"/>
+         <Value name="Calc" source ="Formula6.java" package ="(default package)" value ="1"/>
+         <Value name="getFinalTotalMH" source ="Formula6.java" package ="(default package)" value ="1"/>
+         <Value name="getTotalReportMH" source ="Formula6.java" package ="(default package)" value ="1"/>
+         <Value name="main" source ="Main.java" package ="(default package)" value ="1"/>
+         <Value name="e" source ="ManHours.java" package ="(default package)" value ="1"/>
+         <Value name="f" source ="ManHours.java" package ="(default package)" value ="1"/>
+      </Values>
+   </Metric>
+   <Metric id = "PAR" description ="Number of Parameters" max ="5" hint ="Move invoked method or pass an object">
+      <Values per = "method" avg = "0.5" stddev = "0.824" max = "2">
+         <Value name="Calc" source ="Formula1.java" package ="(default package)" value ="2"/>
+         <Value name="Calc" source ="Formula2.java" package ="(default package)" value ="2"/>
+         <Value name="Calc" source ="Formula3.java" package ="(default package)" value ="2"/>
+         <Value name="Calc" source ="Formula4.java" package ="(default package)" value ="2"/>
+         <Value name="Calc" source ="Formula5.java" package ="(default package)" value ="2"/>
+         <Value name="Calc" source ="Formula6.java" package ="(default package)" value ="2"/>
+         <Value name="Calculate" source ="Formula5.java" package ="(default package)" value ="1"/>
+         <Value name="main" source ="Main.java" package ="(default package)" value ="1"/>
+         <Value name="a" source ="Actors.java" package ="(default package)" value ="0"/>
+         <Value name="d" source ="EFactor.java" package ="(default package)" value ="0"/>
+         <Value name="g" source ="Estimating.java" package ="(default package)" value ="0"/>
+         <Value name="getTotalActorPoint" source ="Formula1.java" package ="(default package)" value ="0"/>
+         <Value name="getTotalUseCase" source ="Formula2.java" package ="(default package)" value ="0"/>
+         <Value name="getTCF" source ="Formula3.java" package ="(default package)" value ="0"/>
+         <Value name="getTotalTF" source ="Formula3.java" package ="(default package)" value ="0"/>
+         <Value name="getszuc" source ="Formula3.java" package ="(default package)" value ="0"/>
+         <Value name="getEF" source ="Formula4.java" package ="(default package)" value ="0"/>
+         <Value name="getTotalEF" source ="Formula4.java" package ="(default package)" value ="0"/>
+         <Value name="getUCP" source ="Formula4.java" package ="(default package)" value ="0"/>
+         <Value name="Formula5" source ="Formula5.java" package ="(default package)" value ="0"/>
+         <Value name="getAdjustMH" source ="Formula5.java" package ="(default package)" value ="0"/>
+         <Value name="getTotalMH" source ="Formula5.java" package ="(default package)" value ="0"/>
+         <Value name="getFinalTotalMH" source ="Formula6.java" package ="(default package)" value ="0"/>
+         <Value name="getTotalReportMH" source ="Formula6.java" package ="(default package)" value ="0"/>
+         <Value name="e" source ="ManHours.java" package ="(default package)" value ="0"/>
+         <Value name="f" source ="ManHours.java" package ="(default package)" value ="0"/>
+         <Value name="c" source ="TFactor.java" package ="(default package)" value ="0"/>
+         <Value name="b" source ="UseCase.java" package ="(default package)" value ="0"/>
+      </Values>
+   </Metric>
+   <Metric id = "NBD" description ="Nested Block Depth" max ="5" hint ="use Extract-method to split the method up">
+      <Values per = "method" avg = "1.643" stddev = "1.315" max = "5">
+         <Value name="d" source ="EFactor.java" package ="(default package)" value ="5"/>
+         <Value name="c" source ="TFactor.java" package ="(default package)" value ="5"/>
+         <Value name="a" source ="Actors.java" package ="(default package)" value ="4"/>
+         <Value name="g" source ="Estimating.java" package ="(default package)" value ="4"/>
+         <Value name="b" source ="UseCase.java" package ="(default package)" value ="4"/>
+         <Value name="Calc" source ="Formula5.java" package ="(default package)" value ="2"/>
+         <Value name="Calc" source ="Formula1.java" package ="(default package)" value ="1"/>
+         <Value name="getTotalActorPoint" source ="Formula1.java" package ="(default package)" value ="1"/>
+         <Value name="Calc" source ="Formula2.java" package ="(default package)" value ="1"/>
+         <Value name="getTotalUseCase" source ="Formula2.java" package ="(default package)" value ="1"/>
+         <Value name="Calc" source ="Formula3.java" package ="(default package)" value ="1"/>
+         <Value name="getTCF" source ="Formula3.java" package ="(default package)" value ="1"/>
+         <Value name="getTotalTF" source ="Formula3.java" package ="(default package)" value ="1"/>
+         <Value name="getszuc" source ="Formula3.java" package ="(default package)" value ="1"/>
+         <Value name="Calc" source ="Formula4.java" package ="(default package)" value ="1"/>
+         <Value name="getEF" source ="Formula4.java" package ="(default package)" value ="1"/>
+         <Value name="getTotalEF" source ="Formula4.java" package ="(default package)" value ="1"/>
+         <Value name="getUCP" source ="Formula4.java" package ="(default package)" value ="1"/>
+         <Value name="Calculate" source ="Formula5.java" package ="(default package)" value ="1"/>
+         <Value name="Formula5" source ="Formula5.java" package ="(default package)" value ="1"/>
+         <Value name="getAdjustMH" source ="Formula5.java" package ="(default package)" value ="1"/>
+         <Value name="getTotalMH" source ="Formula5.java" package ="(default package)" value ="1"/>
+         <Value name="Calc" source ="Formula6.java" package ="(default package)" value ="1"/>
+         <Value name="getFinalTotalMH" source ="Formula6.java" package ="(default package)" value ="1"/>
+         <Value name="getTotalReportMH" source ="Formula6.java" package ="(default package)" value ="1"/>
+         <Value name="main" source ="Main.java" package ="(default package)" value ="1"/>
+         <Value name="e" source ="ManHours.java" package ="(default package)" value ="1"/>
+         <Value name="f" source ="ManHours.java" package ="(default package)" value ="1"/>
+      </Values>
+   </Metric>
+   <Metric id = "CA" description ="Afferent Coupling">
+      <Values per = "packageFragment" avg = "0" stddev = "0" max = "0">
+         <Value name="(default package)" package ="(default package)" value ="0"/>
+      </Values>
+   </Metric>
+   <Metric id = "CE" description ="Efferent Coupling">
+      <Values per = "packageFragment" avg = "0" stddev = "0" max = "0">
+         <Value name="(default package)" package ="(default package)" value ="0"/>
+      </Values>
+   </Metric>
+   <Metric id = "RMI" description ="Instability">
+      <Values per = "packageFragment" avg = "1" stddev = "0" max = "1">
+         <Value name="(default package)" package ="(default package)" value ="1"/>
+      </Values>
+   </Metric>
+   <Metric id = "RMA" description ="Abstractness">
+      <Values per = "packageFragment" avg = "0" stddev = "0" max = "0">
+         <Value name="(default package)" package ="(default package)" value ="0"/>
+      </Values>
+   </Metric>
+   <Metric id = "RMD" description ="Normalized Distance">
+      <Values per = "packageFragment" avg = "0" stddev = "0" max = "0">
+         <Value name="(default package)" package ="(default package)" value ="0"/>
+      </Values>
+   </Metric>
+   <Metric id = "DIT" description ="Depth of Inheritance Tree">
+      <Values per = "type" avg = "1.923" stddev = "0.917" max = "4">
+         <Value name="Formula3" source ="Formula3.java" package ="(default package)" value ="4"/>
+         <Value name="Formula2" source ="Formula2.java" package ="(default package)" value ="3"/>
+         <Value name="TFactor" source ="TFactor.java" package ="(default package)" value ="3"/>
+         <Value name="Formula1" source ="Formula1.java" package ="(default package)" value ="2"/>
+         <Value name="Formula4" source ="Formula4.java" package ="(default package)" value ="2"/>
+         <Value name="Formula5" source ="Formula5.java" package ="(default package)" value ="2"/>
+         <Value name="Formula6" source ="Formula6.java" package ="(default package)" value ="2"/>
+         <Value name="UseCase" source ="UseCase.java" package ="(default package)" value ="2"/>
+         <Value name="Actors" source ="Actors.java" package ="(default package)" value ="1"/>
+         <Value name="EFactor" source ="EFactor.java" package ="(default package)" value ="1"/>
+         <Value name="Estimating" source ="Estimating.java" package ="(default package)" value ="1"/>
+         <Value name="Main" source ="Main.java" package ="(default package)" value ="1"/>
+         <Value name="ManHours" source ="ManHours.java" package ="(default package)" value ="1"/>
+      </Values>
+   </Metric>
+   <Metric id = "WMC" description ="Weighted methods per Class">
+      <Values per = "type" total = "56" avg = "4.308" stddev = "2.613" max = "10">
+         <Value name="Formula5" source ="Formula5.java" package ="(default package)" value ="10"/>
+         <Value name="EFactor" source ="EFactor.java" package ="(default package)" value ="8"/>
+         <Value name="TFactor" source ="TFactor.java" package ="(default package)" value ="8"/>
+         <Value name="Actors" source ="Actors.java" package ="(default package)" value ="4"/>
+         <Value name="Estimating" source ="Estimating.java" package ="(default package)" value ="4"/>
+         <Value name="Formula3" source ="Formula3.java" package ="(default package)" value ="4"/>
+         <Value name="Formula4" source ="Formula4.java" package ="(default package)" value ="4"/>
+         <Value name="UseCase" source ="UseCase.java" package ="(default package)" value ="4"/>
+         <Value name="Formula6" source ="Formula6.java" package ="(default package)" value ="3"/>
+         <Value name="Formula1" source ="Formula1.java" package ="(default package)" value ="2"/>
+         <Value name="Formula2" source ="Formula2.java" package ="(default package)" value ="2"/>
+         <Value name="ManHours" source ="ManHours.java" package ="(default package)" value ="2"/>
+         <Value name="Main" source ="Main.java" package ="(default package)" value ="1"/>
+      </Values>
+   </Metric>
+   <Metric id = "NSC" description ="Number of Children">
+      <Values per = "type" total = "7" avg = "0.538" stddev = "0.746" max = "2">
+         <Value name="Actors" source ="Actors.java" package ="(default package)" value ="2"/>
+         <Value name="UseCase" source ="UseCase.java" package ="(default package)" value ="2"/>
+         <Value name="EFactor" source ="EFactor.java" package ="(default package)" value ="1"/>
+         <Value name="ManHours" source ="ManHours.java" package ="(default package)" value ="1"/>
+         <Value name="TFactor" source ="TFactor.java" package ="(default package)" value ="1"/>
+         <Value name="Estimating" source ="Estimating.java" package ="(default package)" value ="0"/>
+         <Value name="Formula1" source ="Formula1.java" package ="(default package)" value ="0"/>
+         <Value name="Formula2" source ="Formula2.java" package ="(default package)" value ="0"/>
+         <Value name="Formula3" source ="Formula3.java" package ="(default package)" value ="0"/>
+         <Value name="Formula4" source ="Formula4.java" package ="(default package)" value ="0"/>
+         <Value name="Formula5" source ="Formula5.java" package ="(default package)" value ="0"/>
+         <Value name="Formula6" source ="Formula6.java" package ="(default package)" value ="0"/>
+         <Value name="Main" source ="Main.java" package ="(default package)" value ="0"/>
+      </Values>
+   </Metric>
+   <Metric id = "NORM" description ="Number of Overridden Methods">
+      <Values per = "type" total = "0" avg = "0" stddev = "0" max = "0">
+         <Value name="Actors" source ="Actors.java" package ="(default package)" value ="0"/>
+         <Value name="EFactor" source ="EFactor.java" package ="(default package)" value ="0"/>
+         <Value name="Estimating" source ="Estimating.java" package ="(default package)" value ="0"/>
+         <Value name="Formula1" source ="Formula1.java" package ="(default package)" value ="0"/>
+         <Value name="Formula2" source ="Formula2.java" package ="(default package)" value ="0"/>
+         <Value name="Formula3" source ="Formula3.java" package ="(default package)" value ="0"/>
+         <Value name="Formula4" source ="Formula4.java" package ="(default package)" value ="0"/>
+         <Value name="Formula5" source ="Formula5.java" package ="(default package)" value ="0"/>
+         <Value name="Formula6" source ="Formula6.java" package ="(default package)" value ="0"/>
+         <Value name="Main" source ="Main.java" package ="(default package)" value ="0"/>
+         <Value name="ManHours" source ="ManHours.java" package ="(default package)" value ="0"/>
+         <Value name="TFactor" source ="TFactor.java" package ="(default package)" value ="0"/>
+         <Value name="UseCase" source ="UseCase.java" package ="(default package)" value ="0"/>
+      </Values>
+   </Metric>
+   <Metric id = "LCOM" description ="Lack of Cohesion of Methods">
+      <Values per = "type" avg = "0.466" stddev = "0.456" max = "1.2">
+         <Value name="ManHours" source ="ManHours.java" package ="(default package)" value ="1.2"/>
+         <Value name="Formula3" source ="Formula3.java" package ="(default package)" value ="1.1"/>
+         <Value name="Formula5" source ="Formula5.java" package ="(default package)" value ="0.893"/>
+         <Value name="Formula4" source ="Formula4.java" package ="(default package)" value ="0.867"/>
+         <Value name="Formula1" source ="Formula1.java" package ="(default package)" value ="0.667"/>
+         <Value name="Formula2" source ="Formula2.java" package ="(default package)" value ="0.667"/>
+         <Value name="Formula6" source ="Formula6.java" package ="(default package)" value ="0.667"/>
+         <Value name="Actors" source ="Actors.java" package ="(default package)" value ="0"/>
+         <Value name="EFactor" source ="EFactor.java" package ="(default package)" value ="0"/>
+         <Value name="Estimating" source ="Estimating.java" package ="(default package)" value ="0"/>
+         <Value name="Main" source ="Main.java" package ="(default package)" value ="0"/>
+         <Value name="TFactor" source ="TFactor.java" package ="(default package)" value ="0"/>
+         <Value name="UseCase" source ="UseCase.java" package ="(default package)" value ="0"/>
+      </Values>
+   </Metric>
+   <Metric id = "NOF" description ="Number of Attributes">
+      <Values per = "type" total = "66" avg = "5.077" stddev = "2.235" max = "8">
+         <Value name="EFactor" source ="EFactor.java" package ="(default package)" value ="8"/>
+         <Value name="TFactor" source ="TFactor.java" package ="(default package)" value ="8"/>
+         <Value name="Formula5" source ="Formula5.java" package ="(default package)" value ="7"/>
+         <Value name="UseCase" source ="UseCase.java" package ="(default package)" value ="7"/>
+         <Value name="Actors" source ="Actors.java" package ="(default package)" value ="6"/>
+         <Value name="Estimating" source ="Estimating.java" package ="(default package)" value ="6"/>
+         <Value name="Formula3" source ="Formula3.java" package ="(default package)" value ="5"/>
+         <Value name="Formula4" source ="Formula4.java" package ="(default package)" value ="5"/>
+         <Value name="ManHours" source ="ManHours.java" package ="(default package)" value ="5"/>
+         <Value name="Formula1" source ="Formula1.java" package ="(default package)" value ="3"/>
+         <Value name="Formula2" source ="Formula2.java" package ="(default package)" value ="3"/>
+         <Value name="Formula6" source ="Formula6.java" package ="(default package)" value ="3"/>
+         <Value name="Main" source ="Main.java" package ="(default package)" value ="0"/>
+      </Values>
+   </Metric>
+   <Metric id = "NSF" description ="Number of Static Attributes">
+      <Values per = "type" total = "9" avg = "0.692" stddev = "2.398" max = "9">
+         <Value name="Main" source ="Main.java" package ="(default package)" value ="9"/>
+         <Value name="Actors" source ="Actors.java" package ="(default package)" value ="0"/>
+         <Value name="EFactor" source ="EFactor.java" package ="(default package)" value ="0"/>
+         <Value name="Estimating" source ="Estimating.java" package ="(default package)" value ="0"/>
+         <Value name="Formula1" source ="Formula1.java" package ="(default package)" value ="0"/>
+         <Value name="Formula2" source ="Formula2.java" package ="(default package)" value ="0"/>
+         <Value name="Formula3" source ="Formula3.java" package ="(default package)" value ="0"/>
+         <Value name="Formula4" source ="Formula4.java" package ="(default package)" value ="0"/>
+         <Value name="Formula5" source ="Formula5.java" package ="(default package)" value ="0"/>
+         <Value name="Formula6" source ="Formula6.java" package ="(default package)" value ="0"/>
+         <Value name="ManHours" source ="ManHours.java" package ="(default package)" value ="0"/>
+         <Value name="TFactor" source ="TFactor.java" package ="(default package)" value ="0"/>
+         <Value name="UseCase" source ="UseCase.java" package ="(default package)" value ="0"/>
+      </Values>
+   </Metric>
+   <Metric id = "NOM" description ="Number of Methods">
+      <Values per = "type" total = "27" avg = "2.077" stddev = "1.439" max = "5">
+         <Value name="Formula5" source ="Formula5.java" package ="(default package)" value ="5"/>
+         <Value name="Formula3" source ="Formula3.java" package ="(default package)" value ="4"/>
+         <Value name="Formula4" source ="Formula4.java" package ="(default package)" value ="4"/>
+         <Value name="Formula6" source ="Formula6.java" package ="(default package)" value ="3"/>
+         <Value name="Formula1" source ="Formula1.java" package ="(default package)" value ="2"/>
+         <Value name="Formula2" source ="Formula2.java" package ="(default package)" value ="2"/>
+         <Value name="ManHours" source ="ManHours.java" package ="(default package)" value ="2"/>
+         <Value name="Actors" source ="Actors.java" package ="(default package)" value ="1"/>
+         <Value name="EFactor" source ="EFactor.java" package ="(default package)" value ="1"/>
+         <Value name="Estimating" source ="Estimating.java" package ="(default package)" value ="1"/>
+         <Value name="TFactor" source ="TFactor.java" package ="(default package)" value ="1"/>
+         <Value name="UseCase" source ="UseCase.java" package ="(default package)" value ="1"/>
+         <Value name="Main" source ="Main.java" package ="(default package)" value ="0"/>
+      </Values>
+   </Metric>
+   <Metric id = "NSM" description ="Number of Static Methods">
+      <Values per = "type" total = "1" avg = "0.077" stddev = "0.266" max = "1">
+         <Value name="Main" source ="Main.java" package ="(default package)" value ="1"/>
+         <Value name="Actors" source ="Actors.java" package ="(default package)" value ="0"/>
+         <Value name="EFactor" source ="EFactor.java" package ="(default package)" value ="0"/>
+         <Value name="Estimating" source ="Estimating.java" package ="(default package)" value ="0"/>
+         <Value name="Formula1" source ="Formula1.java" package ="(default package)" value ="0"/>
+         <Value name="Formula2" source ="Formula2.java" package ="(default package)" value ="0"/>
+         <Value name="Formula3" source ="Formula3.java" package ="(default package)" value ="0"/>
+         <Value name="Formula4" source ="Formula4.java" package ="(default package)" value ="0"/>
+         <Value name="Formula5" source ="Formula5.java" package ="(default package)" value ="0"/>
+         <Value name="Formula6" source ="Formula6.java" package ="(default package)" value ="0"/>
+         <Value name="ManHours" source ="ManHours.java" package ="(default package)" value ="0"/>
+         <Value name="TFactor" source ="TFactor.java" package ="(default package)" value ="0"/>
+         <Value name="UseCase" source ="UseCase.java" package ="(default package)" value ="0"/>
+      </Values>
+   </Metric>
+   <Metric id = "SIX" description ="Specialization Index">
+      <Values per = "type" avg = "0" stddev = "0" max = "0">
+         <Value name="Actors" source ="Actors.java" package ="(default package)" value ="0"/>
+         <Value name="EFactor" source ="EFactor.java" package ="(default package)" value ="0"/>
+         <Value name="Estimating" source ="Estimating.java" package ="(default package)" value ="0"/>
+         <Value name="Formula1" source ="Formula1.java" package ="(default package)" value ="0"/>
+         <Value name="Formula2" source ="Formula2.java" package ="(default package)" value ="0"/>
+         <Value name="Formula3" source ="Formula3.java" package ="(default package)" value ="0"/>
+         <Value name="Formula4" source ="Formula4.java" package ="(default package)" value ="0"/>
+         <Value name="Formula5" source ="Formula5.java" package ="(default package)" value ="0"/>
+         <Value name="Formula6" source ="Formula6.java" package ="(default package)" value ="0"/>
+         <Value name="Main" source ="Main.java" package ="(default package)" value ="0"/>
+         <Value name="ManHours" source ="ManHours.java" package ="(default package)" value ="0"/>
+         <Value name="TFactor" source ="TFactor.java" package ="(default package)" value ="0"/>
+         <Value name="UseCase" source ="UseCase.java" package ="(default package)" value ="0"/>
+      </Values>
+   </Metric>
+   <Metric id = "NOC" description ="Number of Classes">
+      <Values per = "packageFragment" total = "13" avg = "13" stddev = "0" max = "13">
+         <Value name="(default package)" package ="(default package)" value ="13"/>
+      </Values>
+   </Metric>
+   <Metric id = "NOI" description ="Number of Interfaces">
+      <Values per = "packageFragment" total = "0" avg = "0" stddev = "0" max = "0">
+         <Value name="(default package)" package ="(default package)" value ="0"/>
+      </Values>
+   </Metric>
+   <Metric id = "NOP" description ="Number of Packages">
+      <Value value="1"/>
+   </Metric>
+   <Metric id = "TLOC" description ="Total Lines of Code">
+      <Value value="355"/>
+   </Metric>
+   <Metric id = "MLOC" description ="Method Lines of Code">
+      <Values per = "method" total = "213" avg = "7.607" stddev = "10.15" max = "32">
+         <Value name="d" source ="EFactor.java" package ="(default package)" value ="32"/>
+         <Value name="c" source ="TFactor.java" package ="(default package)" value ="31"/>
+         <Value name="g" source ="Estimating.java" package ="(default package)" value ="25"/>
+         <Value name="b" source ="UseCase.java" package ="(default package)" value ="24"/>
+         <Value name="main" source ="Main.java" package ="(default package)" value ="23"/>
+         <Value name="a" source ="Actors.java" package ="(default package)" value ="22"/>
+         <Value name="Calc" source ="Formula5.java" package ="(default package)" value ="12"/>
+         <Value name="e" source ="ManHours.java" package ="(default package)" value ="8"/>
+         <Value name="f" source ="ManHours.java" package ="(default package)" value ="6"/>
+         <Value name="Calc" source ="Formula1.java" package ="(default package)" value ="3"/>
+         <Value name="Calc" source ="Formula2.java" package ="(default package)" value ="3"/>
+         <Value name="Calc" source ="Formula3.java" package ="(default package)" value ="3"/>
+         <Value name="Calc" source ="Formula4.java" package ="(default package)" value ="3"/>
+         <Value name="Calc" source ="Formula6.java" package ="(default package)" value ="3"/>
+         <Value name="Calculate" source ="Formula5.java" package ="(default package)" value ="2"/>
+         <Value name="getTotalActorPoint" source ="Formula1.java" package ="(default package)" value ="1"/>
+         <Value name="getTotalUseCase" source ="Formula2.java" package ="(default package)" value ="1"/>
+         <Value name="getTCF" source ="Formula3.java" package ="(default package)" value ="1"/>
+         <Value name="getTotalTF" source ="Formula3.java" package ="(default package)" value ="1"/>
+         <Value name="getszuc" source ="Formula3.java" package ="(default package)" value ="1"/>
+         <Value name="getEF" source ="Formula4.java" package ="(default package)" value ="1"/>
+         <Value name="getTotalEF" source ="Formula4.java" package ="(default package)" value ="1"/>
+         <Value name="getUCP" source ="Formula4.java" package ="(default package)" value ="1"/>
+         <Value name="Formula5" source ="Formula5.java" package ="(default package)" value ="1"/>
+         <Value name="getAdjustMH" source ="Formula5.java" package ="(default package)" value ="1"/>
+         <Value name="getTotalMH" source ="Formula5.java" package ="(default package)" value ="1"/>
+         <Value name="getFinalTotalMH" source ="Formula6.java" package ="(default package)" value ="1"/>
+         <Value name="getTotalReportMH" source ="Formula6.java" package ="(default package)" value ="1"/>
+      </Values>
+   </Metric>
+   </Metrics>
